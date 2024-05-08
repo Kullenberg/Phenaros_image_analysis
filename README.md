@@ -8,7 +8,7 @@ The CellProfiler pipeline requires you to manually input the images correspondin
   This will produce the five .csv files with the prefix "PhenData_", which are then used together with the plate metadata in the attached Jupyter notebook.
   This produced the image "UMAP_projection.png" also attached in this Github repo. 
 
-  All in all I would say there is a clear separation between the positive and negative controls in the final analysis, as well as a clear difference between the two positive controls.
+  All in all I would say there is a separation between the positive and negative controls in the final analysis, as well as a difference between the two positive controls.
   
 
 
