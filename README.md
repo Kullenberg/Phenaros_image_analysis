@@ -1,4 +1,4 @@
-# Phenaros_image_analysis
+# Phenaros segmentation and image analysis
 
 This is my solution to the task given to me (https://github.com/pharmbio/SegMine). I have set up a CellProfiler pipeline (see CellProfiler_for_Phenaros_plate_96.cppipe) to segment the cells into masks, extract their morphological information (cell area, nucleus area, cell eccentricity, nucleus eccentricity, location and median radious) and then calculates the median values per well/site combo.
 The CellProfiler pipeline requires you to manually input the images corresponding to the wells used in the plate with the barcode "PB000096", which are the following:
@@ -7,7 +7,7 @@ The CellProfiler pipeline requires you to manually input the images correspondin
   
   In total this corresponds to 380 files, which are also available on my google drive: (https://drive.google.com/drive/folders/1bTBKT-YwxMNIJHjGPhw9t9m8-XRmoMi1?usp=drive_link).
 
-  Running the CellPorfiler pipeline will produce the five .csv files with the prefix "PhenData_", which are then used together with the plate metadata in the attached Jupyter notebook.
+  Running the CellProfiler pipeline will produce the five .csv files with the prefix "PhenData_", which are then used together with the plate metadata in the attached Jupyter notebook.
   This produced the UMAP projection scatter plot seen at the end of this description. 
 
   All in all I would say there is a separation between the positive and negative controls in the final analysis, as well as a difference between the two positive controls.
